@@ -1,0 +1,227 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 201, 201);
+}
+
+/*AQUI EMPIEZA EL ARCHIVO INDICE */
+
+nav{
+    width: 100%;
+    position: fixed;
+    max-height: 50px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(69, 156, 238);    
+    border-bottom: solid 1px;
+    border-color: rgb(69, 227, 238);
+}
+
+.titulo{
+    color: white;
+    text-decoration: none;    
+    display: inline-block;
+    margin-top: 15px;
+    text-shadow: 3px 4px 5px black;
+}
+.titulo a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    bottom: 30px;
+    right: 10px;
+    position: relative;
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li:hover{
+    background-color: rgb(92, 171, 245);
+    border: 2px;
+    border-radius: 15px;
+    text-shadow: 3px 3px 4px black;
+}
+ul li:active{
+    border-color: black;
+    border-bottom: solid 2px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    margin-top: 80px;    
+    margin-left: 5px;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.container a:visited{
+    color: black;
+}
+
+section .center{
+    border-right: solid 1px white;
+    max-width: 1300px;
+    height: 100%;
+}
+
+aside{
+    float: right;
+}
+
+#box{
+    border-radius: 10px;
+    max-height: 480px;
+    max-width: 720px;
+    overflow: auto;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 30px;
+}
+
+#box2{
+    border-radius: 10px;
+    max-height: 480px;
+    max-width: 720px;
+    overflow: auto;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px black;
+}
+
+footer{
+    background-color: rgb(180, 164, 164);
+    width: 100%;
+    margin: 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+/* AQUI COMIENZA EL ARCHIVO IMAGENES*/
+
+section .galery{
+    border-right: solid 1px white;
+    max-width: 1300px;
+    height: 100%;
+}
+
+.big{
+    margin: 10px;
+    height: 360px;
+    border-radius: 30px;
+    border: dashed 5px white;
+    box-shadow: 3px 3px 4px black;
+}
+
+.big:hover{
+    margin: 10px;
+    height: 390px;
+    border-radius: 30px;
+    border: solid 5px white;
+    box-shadow: 3px 3px 4px black;
+    border-bottom: solid 5px rgb(0, 204, 255);
+}
+
+.medium{
+    margin: 10px;
+    height: 220px;
+    border-radius: 20px;
+    border: dashed 5px white;
+    box-shadow: 3px 3px 4px black;
+}
+
+.medium:hover{
+    margin: 10px;
+    height: 250px;
+    border-radius: 20px;
+    border: solid 5px white;
+    box-shadow: 3px 3px 4px black;
+    border-bottom: solid 5px rgb(0, 204, 255);
+}
+
+.smalls{
+    margin: 10px;
+    height: 130px;
+    border-radius: 18px;
+    border: dashed 5px white;
+}
+
+.smalls:hover{
+    margin: 10px;
+    height: 160px;
+    border-radius: 18px;
+    border: solid  5px white;
+    box-shadow: 3px 3px 4px black;
+    border-bottom: solid 5px rgb(0, 204, 255);
+}
+
+/*AQUI COMIENZA EL ARCHIVO CONTACTO */
+
+
+#youtube-audio{
+    display: none;
+}
+
+.box{
+    max-width: 400px;
+}
+
+fieldset{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: normal;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+
+}
+input{
+    width: 98%;
+
+}
+textarea{
+    width: 98%;
+    min-width: 200px;
+}
+input[type=submit]{
+    margin-left: 10px;
+    padding: 5px;
+    width: 40%;
+    display: inline-block;
+    cursor: pointer;
+}
+#enviar{
+    background-color: turquoise;
+    color: white;
+    border: none;
+    border-radius: 8px;    
+}
+#enviar:hover{
+    background-color: rgb(86, 255, 238);
+    box-shadow: 2px 2px 2px rgb(33, 189, 173);
+}
+#enviar:active{
+    background-color: rgb(24, 180, 165);
+}
+
+#cancelar{
+    background-color: rgb(157, 158, 157);
+    color: white;
+    border: none;
+    border-radius: 8px;    
+}
+#cancelar:hover{
+    background-color:  rgb(190, 190, 190);
+    box-shadow: 2px 2px 2px rgb(30, 31, 31);;
+}
+#cancelar:active{
+    background-color:  rgb(126, 126, 126);
+}
